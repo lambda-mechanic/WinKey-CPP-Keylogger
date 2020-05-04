@@ -1,0 +1,5 @@
+﻿  keystroke_logger.cpp
+c:\users\liam c\documents\visual studio 2017\projects\keystroke_logger\keystroke_logger\keystroke_logger.cpp(178): warning C4996: 'open': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _open. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\corecrt_io.h(516): note: see declaration of 'open'
+  keystroke_logger.vcxproj -> C:\Users\Liam C\documents\visual studio 2017\Projects\keystroke_logger\Debug\keystroke_logger.exe
+  keystroke_logger.vcxproj -> C:\Users\Liam C\documents\visual studio 2017\Projects\keystroke_logger\Debug\keystroke_logger.pdb (Partial PDB)
