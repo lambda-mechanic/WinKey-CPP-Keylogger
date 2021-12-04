@@ -1,4 +1,4 @@
-# WinKey---A-Simple-C-Keylogger
+# WinKey: A Simple C++ Keylogger (EDUCATIONAL PURPOSES ONLY)
 A simple C++ keystroke logger built for windows
 
 NOTE: 
