@@ -1,6 +1,12 @@
 # WinKey---A-Simple-C-Keylogger
 A simple C++ keystroke logger built for windows
 
+NOTE: 
+(1) This is an improvement of the code found here: https://geekviews.tech/how-to-make-a-c-keylogger/
+I realized that when replicated, the code did not execute correctly, so I rewrote it to work correctly. Some of the changes I made are that I modified it to use ASCII characters and to use memory addresses in conjunction with GetAsyncKeyState(). I did extensive research on the functions used in this program. Therefore not all of the code present is mine, and much of the credit is due to the author of the above article.
+(2) This is PURELY for educational purposes. I learned a lot in writing this software and have included extensive comments in my code so that others may learn from it as well.
+
+HOW IT WORKS:
 The keylogger collects alphanumeric inputs (but not input from the num buttons on the right side of the keyboard, although they can easily be added). This includes spaces " ", tabs "  ", and enters "\n". 
 
 The program treats a char, inp, as an ascii value that is read by the filestream and appears as cleartext in the log.txt file. This program takes advantage of C++'s implicit type conversions as inp is used as an int that represents a corresponding ascii value.
